@@ -15,6 +15,25 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -30,11 +49,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nilver\Java\Projects\interview\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="delivery.constants.delegate" />
       <recent name="delegate" />
@@ -44,7 +66,7 @@
       <recent name="C:\Users\nilver\Java\Projects\interview\src\main\java\delivery" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.DispacherDelegateTest">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="delivery.Base" />
       <module name="delivery.main" />
@@ -58,8 +80,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DispacherDelegateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DispacherDelegateTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DispacherDelegateTest" />
         <item itemvalue="Application.Base" />
       </list>
     </recent_temporary>
@@ -78,17 +121,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="27" key="#Project_Structure" timestamp="1589766161583">
+    <state x="0" y="27" key="#Project_Structure" timestamp="1589766955025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="27" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589766161583" />
+    <state x="0" y="27" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589766955025" />
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589766989049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589766989049" />
     <state x="57" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589766242989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589766242989" />
+    <state x="479" y="224" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589766991328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="224" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1589766991328" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589766739058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589766739058" />
+    <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1589767072580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589767072580" />
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1589767404871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1589767404871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1589767404871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1589767404871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1589767076513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589767076513" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1589767087953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589767087953" />
   </component>
 </project>

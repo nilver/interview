@@ -1,5 +1,6 @@
 package delivery.service;
 
+import delivery.exception.SenderServiceException;
 import delivery.model.Delivery;
 import delivery.model.Drone;
 
@@ -43,7 +44,7 @@ public class SenderService extends Thread {
 
     }
 
-    private void processPath(String path,int ocurrencies, List<String> result) throws SenderServiceException{
+    private void processPath(String path,int ocurrencies, List<String> result) throws SenderServiceException {
         int capacity = setCapacity(ocurrencies);
         Delivery drone = new Drone(capacity);
         for (int j = 0; j < path.length(); j++) {

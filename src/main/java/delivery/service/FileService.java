@@ -1,5 +1,7 @@
 package delivery.service;
 
+import delivery.exception.InputException;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -10,11 +12,12 @@ import java.util.stream.Stream;
 
 public class FileService {
 
-    private final String MESSAGE_ERROR_READ = "Can not read input file: ";
+    private static final String MESSAGE_ERROR_READ = "Can not read input file: ";
+    private static final String PATH_BASE = "src/main/resources/";
 
-    public Map<String, Integer> getMovements(String fileName)  {
+    public Map<String, Integer> getMovements(String fileName) {
         Map<String, Integer> result = new TreeMap<>();
-        try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
+        try (Stream<String> stream = Files.lines(Paths.get(PATH_BASE + fileName))) {
             stream.forEach(line -> {
                 String path = line.toUpperCase();
                 if (result.containsKey(path)) {
@@ -24,7 +27,7 @@ public class FileService {
                 }
             });
         } catch (IOException e) {
-            throw  new InputException(MESSAGE_ERROR_READ+fileName, e);
+            throw new InputException(MESSAGE_ERROR_READ + fileName, e);
 
         }
         return result;

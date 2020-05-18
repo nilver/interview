@@ -2,6 +2,7 @@ package delivery.service;
 
 import delivery.constants.MovementType;
 import delivery.constants.DirectionType;
+import delivery.exception.SenderServiceException;
 import delivery.model.Delivery;
 
 public class MovementService {
