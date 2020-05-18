@@ -1,10 +1,15 @@
 package delivery.service;
 
-import delivery.constants.MovementType;
 import delivery.constants.DirectionType;
+import delivery.constants.MovementType;
 import delivery.exception.SenderServiceException;
 import delivery.model.Delivery;
 
+/**
+ * @author nilver
+ * @version 1.0.0
+ * @since 1.0.0
+ */
 public class MovementService {
 
     private Delivery delivery;
@@ -14,10 +19,20 @@ public class MovementService {
     public MovementService() {
     }
 
+    /**
+     * SetUp initial delivery
+     *
+     * @param delivery
+     */
     public void setDelivery(Delivery delivery) {
         this.delivery = delivery;
     }
 
+    /**
+     * Set a left movement
+     *
+     * @param delivery
+     */
     public void turnLeft(Delivery delivery) {
         int direction = delivery.getDirection();
         direction = (4 + direction - 1) % 4;
@@ -25,6 +40,11 @@ public class MovementService {
 
     }
 
+    /**
+     * Set a right movement
+     *
+     * @param delivery
+     */
     public void turnRight(Delivery delivery) {
         int direction = delivery.getDirection();
         direction = (direction + 1) % 4;
@@ -32,9 +52,13 @@ public class MovementService {
 
     }
 
+    /**
+     * Set a go ahead movement for delivery
+     * @param delivery
+     */
     public void goForward(Delivery delivery) {
 
-        int direction =  delivery.getDirection();
+        int direction = delivery.getDirection();
         int x = delivery.getX();
         int y = delivery.getY();
 
@@ -54,7 +78,11 @@ public class MovementService {
         }
     }
 
-
+    /**
+     * Process a valid movement(forward,left,right)
+     * @param movement
+     * @throws SenderServiceException when get a invalid movement
+     */
     public void processMovement(String movement) throws SenderServiceException {
 
         switch (getMovementType(movement)) {
@@ -70,6 +98,12 @@ public class MovementService {
         }
     }
 
+    /**
+     * Validate if the string is a valid
+     * @param movement
+     * @return
+     * @throws SenderServiceException
+     */
     private MovementType getMovementType(String movement) throws SenderServiceException {
         try {
             return MovementType.valueOf(movement);

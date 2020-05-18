@@ -3,9 +3,10 @@ package delivery.model;
 import delivery.constants.DirectionType;
 
 /**
- *
+ * @author nilver
+ * @version 1.0.0
+ * @since 1.0.0
  */
-
 public class Delivery {
     private int x;
     private int y;

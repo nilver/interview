@@ -213,22 +213,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589767072580" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1589775350731">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1589777113891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1589775350731">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589777113891" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1589777113890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1589775350731">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589777113890" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1589777113890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1589775350731">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589777113890" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1589777113890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589777113890" />
     <state width="1323" height="296" key="GridCell.Tab.1.bottom" timestamp="1589771689745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,6 +249,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589767076513" />
+    <state x="380" y="0" width="606" height="728" key="find.popup" timestamp="1589777061028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="606" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1589777061028" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1589767087953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,7 +263,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/delivery/service/SenderService.java</url>
-          <line>32</line>
+          <line>41</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

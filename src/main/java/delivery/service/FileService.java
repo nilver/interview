@@ -11,6 +11,11 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Stream;
 
+/**
+ * @author nilver
+ * @version 1.0.0
+ * @since 1.0.0
+ */
 public class FileService {
 
     private static final String MESSAGE_ERROR_READ = "Can not read input file: ";
@@ -45,13 +50,12 @@ public class FileService {
         try {
             String base = "out0";
             FileWriter myWriter = new FileWriter(PATH_BASE_OUTPUT + base + nameFile);
-            for (int i= 0;i<list.size();i++){
-               myWriter.write(list.get(i)+"\n");
+            for (int i = 0; i < list.size(); i++) {
+                myWriter.write(list.get(i) + "\n");
             }
-             myWriter.close();
+            myWriter.close();
         } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            throw new InputException("Writing results",e);
         }
     }
 

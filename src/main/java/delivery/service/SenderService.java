@@ -8,6 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author Nilver Viera
+ * @version 1.0.0
+ * @since 1.0.0
+ */
 public class SenderService extends Thread {
 
     private String id;
@@ -26,6 +31,10 @@ public class SenderService extends Thread {
         this.capacity = capacity;
     }
 
+    /**
+     * This method is called when a thread start, read a file and process all paths and movements.
+     *
+     */
     @Override
     public void run() {
 
@@ -36,7 +45,6 @@ public class SenderService extends Thread {
                         processPath(path,ocurrecies,result);
                     } catch (SenderServiceException e) {
                         e.printStackTrace();
-                        System.out.println("Finishe");
                     }
                 }
         );
@@ -44,6 +52,13 @@ public class SenderService extends Thread {
 
     }
 
+    /**
+     *
+     * @param path All movements far some path
+     * @param ocurrencies number of food for some path
+     * @param result final list with positions for some drone
+     * @throws SenderServiceException when there is an invalid movement
+     */
     private void processPath(String path,int ocurrencies, List<String> result) throws SenderServiceException {
         int capacity = setCapacity(ocurrencies);
         Delivery drone = new Drone(capacity);
@@ -56,6 +71,12 @@ public class SenderService extends Thread {
         result.add(drone.toString());
     }
 
+    /**
+     * Validation if capacity is upper than the allowed
+     * @param occurrences number of times that a order repeat
+     * @return valid capacity
+     * @throws SenderServiceException when capacity is upper than allowed
+     */
     private int setCapacity(int occurrences) throws SenderServiceException {
         if(occurrences<=this.capacity){
             return occurrences;

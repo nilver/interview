@@ -1,3 +1,5 @@
+package delegate;
+
 import delivery.delegate.DispaherDelegate;
 import delivery.service.FileService;
 import delivery.service.SenderService;
