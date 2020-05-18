@@ -17,9 +17,7 @@ public class DispaherDelegate {
     public void  init(int range, int capacity){
         createNamesFiles();
         for (String fileName :namesFile){
-            System.out.println("Creating thread...");
             Thread thread = new SenderService(fileName, range, capacity);
-            System.out.println("Starting thread...");
             thread.start();
         }
     }
@@ -27,7 +25,7 @@ public class DispaherDelegate {
     private void createNamesFiles() {
         for (int i = 0; i < totalDelivery; i++) {
             int index = i + 1;
-            String fileName = "in0" + index + ".txt";
+            String fileName = index + ".txt";
             this.namesFile.add(fileName);
         }
     }

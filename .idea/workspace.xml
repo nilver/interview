@@ -18,6 +18,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -48,13 +51,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nilver\Java\Projects\interview\src\main\resources\input" />
       <recent name="C:\Users\nilver\Java\Projects\interview\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -62,11 +66,12 @@
       <recent name="delegate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nilver\Java\Projects\interview\src\test\resources" />
       <recent name="C:\Users\nilver\Java\Projects\interview\src\main\java" />
       <recent name="C:\Users\nilver\Java\Projects\interview\src\main\java\delivery" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DispacherDelegateTest">
+  <component name="RunManager" selected="Application.Base">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="delivery.Base" />
       <module name="delivery.main" />
@@ -80,12 +85,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispacherDelegateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MovementServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DispacherDelegateTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;service.MovementServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovementServiceTest.when_processMovement_with_InvalidMovement_then_Exception" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.MovementServiceTest.when_processMovement_with_InvalidMovement_then_Exception&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovementServiceTest.when_processMovement_with_goFoward_succes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.MovementServiceTest.when_processMovement_with_goFoward_succes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovementServiceTest.when_turnRight_twice_succes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.MovementServiceTest.when_turnRight_twice_succes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -102,8 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DispacherDelegateTest" />
         <item itemvalue="Application.Base" />
+        <item itemvalue="Gradle.MovementServiceTest" />
+        <item itemvalue="Gradle.MovementServiceTest.when_processMovement_with_InvalidMovement_then_Exception" />
+        <item itemvalue="Gradle.MovementServiceTest.when_processMovement_with_goFoward_succes" />
+        <item itemvalue="Gradle.MovementServiceTest.when_turnRight_twice_succes" />
       </list>
     </recent_temporary>
   </component>
@@ -121,10 +189,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="27" key="#Project_Structure" timestamp="1589766955025">
+    <state x="0" y="27" key="#Project_Structure" timestamp="1589772101530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="27" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589766955025" />
+    <state x="0" y="27" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589772101530" />
     <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589766989049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,30 +205,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="224" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1589766991328" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589766739058">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589771725380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589766739058" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589771725380" />
     <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1589767072580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589767072580" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1589767404871">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1589775350731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1589767404871">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1589775350731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1589767404871">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1589775350731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1589767404871">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1589775350731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589767404871" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589775350731" />
+    <state width="1323" height="296" key="GridCell.Tab.1.bottom" timestamp="1589771689745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589771689745" />
+    <state width="1323" height="296" key="GridCell.Tab.1.center" timestamp="1589771689745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589771689745" />
+    <state width="1323" height="296" key="GridCell.Tab.1.left" timestamp="1589771689745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589771689745" />
+    <state width="1323" height="296" key="GridCell.Tab.1.right" timestamp="1589771689745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="296" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589771689745" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1589767076513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -169,5 +253,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589767087953" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/delivery/service/SenderService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/service/MovementServiceTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

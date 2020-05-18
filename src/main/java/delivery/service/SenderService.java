@@ -40,7 +40,7 @@ public class SenderService extends Thread {
                     }
                 }
         );
-        fileService.writeFile(result, Thread.currentThread().getName());
+        fileService.writeFile(result, id);
 
     }
 

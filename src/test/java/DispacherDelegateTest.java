@@ -31,4 +31,10 @@ public class DispacherDelegateTest {
         dispaherDelegate.init(10,3);
         assertEquals(dispaherDelegate.getTotalDelivery(), totalDelivery);
     }
+
+    @Test
+    public void when_create_dispaherDelegate_with_zero_then_totalDelivery_is_zero() {
+        DispaherDelegate dispaherDelegate = new DispaherDelegate(0);
+        assertEquals(dispaherDelegate.getTotalDelivery(),0);
+    }
 }
